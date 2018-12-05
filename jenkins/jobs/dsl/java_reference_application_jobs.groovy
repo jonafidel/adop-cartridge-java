@@ -1,4 +1,5 @@
 import pluggable.scm.*;
+
 SCMProvider scmProvider = SCMProviderHandler.getScmProvider("${SCM_PROVIDER_ID}", binding.variables)
 
 // Folders
